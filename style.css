@@ -1,0 +1,133 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    background-color: thistle;
+    box-sizing: border-box;
+}
+
+ul.nav {
+    list-style: none;
+    margin: 0 15px 70px 100px;
+    padding-left: 0;
+    color: darkblue;  
+}
+
+.nav li {
+    float: left;
+    margin-left: 40px;
+}
+
+ul.nav a {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 0 5px;
+    background-color: darkkhaki;
+    border: 1px dashed firebrick;
+    text-decoration: none;
+    color: darkslategray;
+    text-align: center;
+}
+
+ul.nav a:hover {
+    background-color: darkslategrey;
+    color: gold;
+}
+
+.block {
+    padding: 25px 40px 35px 30px;
+    border: 1px solid darkblue;
+    width: 680px;
+    height: 130px;
+    margin: 20px 50px 10px 260px;
+}
+
+.podblock {
+    width: 250px;
+    height: 130px;
+    border: 2px solid red;
+    background-color: rosybrown;
+}
+
+.podblock-1 {
+    float: left;
+    width: 250px;
+    height: 130px;
+    border: 2px solid red;
+    background-color: rosybrown;
+}
+.podblock-2 {
+    float: right;
+    width: 250px;
+    height: 130px;
+    border: 2px solid darkred;
+    background-color: rosybrown;
+}
+ 
+.feif-block p {
+    text-align: center;
+    text-decoration: yellow;
+    color: green;
+    font-size: 20px;
+}
+
+.feif-block span {
+    display: block;
+    color: grey;
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(7, 34, 75);
+}
+
+.feif-block img {
+    width: 250px;
+    height: 250px;
+    margin-left: 140px;
+}
+
+.feif-block h1 {
+    margin: -170px 10px 0 400px;
+    text-align: left;
+    color: orange;
+    font-size: 35px;
+}
+
+hr {
+   margin: 150px 0 0 0;  
+}
+
+.all {
+    color: #474747;
+    font-size: 22px;
+    font-family: 'GloberBold';
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.images {
+    margin: 0 25px 0 550px;
+}
+.images a {
+    font-size: 16px;
+    height: 48px;
+    line-height: 48px;
+    width: 210px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 2px;
+    box-sizing: content-box;
+    border-color: indianred;
+    background-color: #4267b2;
+}
+
+.clearfix {
+    clear: both;
+    content: " ";
+}
